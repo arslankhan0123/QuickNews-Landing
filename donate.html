@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicons/favIcon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Header --> 
+    <header class="fixed-top header-active">
+      <nav class="navbar navbar-expand-lg bg-light navbar-dark p-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/logos/logo.svg" alt="" />
+          </a>
+
+          <div class="d-flex flex-row gap-3">
+            <a
+              href="/contact.html"
+              class="header-btn2 flex-shirnk-0 d-inline-block d-lg-none"
+            >
+              Contact Us
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="flex-1 justify-content-center">
+              <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/our-vision.html">Our Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/partnership.html">Partnership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/invest.html">Invest</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="/donate.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/meet-our-founder.html"
+                    >Our Team</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="/contact.html"
+              class="header-btn2 flex-shirnk-0 d-none d-lg-inline-block"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <div class="mt-spacer"></div>
+
+    <!-- Custom Header -->
+    <div class="custom-header help-us-header">
+      <h1>Help Us Make a Change</h1>
+    </div>
+
+    <section class="bg-gredient donate-now">
+      <div class="container">
+        <div
+          class="row gap-xl-24 flex-column-reverse flex-xl-row align-items-center"
+        >
+          <div class="col-12 col-xl-6">
+            <form>
+              <h4>Donate Now</h4>
+
+              <div>
+                <div class="donate-now__form d-grid">
+                  <div class="form-field">
+                    <label for="name">Name </label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Name"
+                      class="bordered-input"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="last-name">Last Name </label>
+                    <input
+                      type="text"
+                      name="last-name"
+                      id="last-name"
+                      placeholder="Last Name"
+                      class="bordered-input"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      name="email"
+                      id="email"
+                      placeholder="Email"
+                      class="bordered-input"
+                    />
+                  </div>
+
+                  <div class="form-field">
+                    <label for="contact">Contact</label>
+                    <input
+                      type="text"
+                      name="contact"
+                      id="contact"
+                      placeholder="Contact"
+                      class="bordered-input"
+                    />
+                  </div>
+                </div>
+
+                <div class="your-amount gap-md-12">
+                  <div class="form-field">
+                    <label for="amount" class="d-none">Amount </label>
+                    <input
+                      type="text"
+                      name="amount"
+                      id="amount"
+                      placeholder="amount"
+                      class="bordered-input"
+                      value="$5"
+                      readonly
+                    />
+                  </div>
+
+                  <div>Or</div>
+
+                  <div class="form-field w-100">
+                    <label for="custom-amount" class="d-none"
+                      >Custom Amount
+                    </label>
+                    <input
+                      type="text"
+                      name="custom-amount"
+                      id="custom-amount"
+                      placeholder="$ Enter Custom Amount"
+                      class="bordered-input"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <button
+                type="submit"
+                class="btn-solid"
+              >
+                Donate
+              </button>
+            </form>
+          </div>
+
+          <div class="col-12 col-xl-6" data-aos="fade-left">
+            <div class="donate-now__content">
+              <p>
+                We are a 100% bootstrapped team, driven by a simple yet profound mission: to empower every individual with quick, meaningful access to the news that matters. Using cutting-edge AI, we simplify complex information, reduce screen time, and help people stay informed while giving them more time for what truly matters – their families, communities, and personal growth. We are a team of four, each juggling full-time jobs while passionately building this platform from the ground up. Every line of code, every design, and every piece of support is managed by us. We’ve initially launched in the USA, but our vision spans continents — to make Quick News Global accessible to every corner of the world, uniting people through fast, reliable, and impactful information.
+              </p>
+
+              <!-- <p>
+                When you donate, you're not just giving money—you’re giving
+                someone a chance. A chance at a warm meal, a safe place to
+                sleep, or the tools to build a better future. Your support helps
+                us reach more people every day. Join us in making an impact.
+              </p> -->
+
+              <!-- <p>
+                Every act of kindness starts with someone who cares. Your
+                donation helps us provide critical services and create lasting
+                change in our communities. It only takes a moment to give, but
+                the impact can last a lifetime.
+              </p> -->
+            </div>
+          </div>
+
+          <div class="col-12 d-xl-none">
+            <h4 class="text-white">Kerry KingBrown</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="suport-donation text-center text-white"
+      id="suport-donation"
+    >
+      <div class="container">
+        <h2>Support with a Donation</h2>
+        <p>
+          At Quick News Global (AI), we believe everyone deserves quick, concise, and distraction-free access to news that truly matters. Your support goes beyond a donation; it's an investment in a more informed and united global community. Our vision is to build a globally trusted AI-powered news platform that fosters unity and transforms how the world consumes information. By making news accessible and meaningful, we empower individuals to prioritize what truly matters: family, community, and personal growth. Join us in building this essential future.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg">
+      <div class="container">
+        <div class="row gap-md-24">
+          <div class="col-12 col-md-7 col-xl-5">
+            <div class="footer__brand d-flex flex-column">
+              <img src="/assets/logos/logo.svg" alt="" width="60" height="60" />
+              <p>
+                Get the news that matters, fast. Quick News Global's AI-powered summaries put you ahead of the curve, freeing up time for what truly counts. Global events, local stories, and everything in between - news that fits your coffee break. Download now to stay informed and united.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5 col-xl-7">
+            <div class="row footer-list-wrapper">
+              <div class="col-6 col-xl-4 order-1 order-xl-1">
+                <div class="footer__list d-flex flex-column">
+                  <h4>Menu Links</h4>
+                  <ul class="d-flex flex-column">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/our-vision.html">Our Vision</a></li>
+                    <li><a href="/partnership.html">Partnership</a></li>
+                    <li><a href="/invest.html">Invest</a></li>
+                    <li><a href="/donate.html">Donate</a></li>
+                    <li><a href="/meet-our-founder.html">Our Team</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-xl-4 order-3 order-xl-2">
+                <div class="footer__list d-flex flex-column">
+                  <h4>Social Media</h4>
+                  <ul class="d-flex flex-wrap social-links">
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/twitter.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/facebook.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/instagram.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/linkdin.svg" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-6 col-xl-4 order-2 order-xl-3">
+                <div class="footer__list social-list d-flex flex-column">
+                  <h4>Get the App</h4>
+                  <ul class="d-flex flex-wrap social-links">
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/images/app-store.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/images/google-play.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row newsletter gap-md-24">
+          <div class="col-lg-6">
+            <div class="newsletter__content">
+              <h5>Join our newsletter</h5>
+              <p>Keep up to date with everything Reflect</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="newsletter__form ms-auto">
+              <form class="d-flex flex-wrap">
+                <input
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  class="flex-1"
+                />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row copyright text-center text-md-left gap-md-12">
+          <div class="col-12 col-md-6">
+            <ul
+              class="d-flex flex-wrap justify-content-center justify-content-md-start"
+            >
+              <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="#">Terms of Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-end">
+            <p>Powered by GDELT</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>

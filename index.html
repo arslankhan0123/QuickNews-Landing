@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="icon" type="image/x-icon" href="/assets/favicons/favIcon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+      integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="fixed-top header-active">
+      <nav class="navbar navbar-expand-lg bg-light navbar-dark p-0">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="/assets/logos/logo.svg" alt="" />
+          </a>
+
+          <div class="d-flex flex-row gap-3">
+            <a
+              href="/contact.html"
+              class="header-btn2 flex-shirnk-0 d-inline-block d-lg-none"
+            >
+              Contact Us
+            </a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapsibleNavbar"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <div class="flex-1 justify-content-center">
+              <ul class="navbar-nav mx-lg-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/our-vision.html">Our Vision</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/partnership.html">Partnership</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/invest.html">Invest</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/donate.html">Donate</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/meet-our-founder.html"
+                    >Our Team</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/blog.html">Blog</a>
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="/contact.html"
+              class="header-btn2 flex-shirnk-0 d-none d-lg-inline-block"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Body Sections -->
+    <div class="mt-spacer"></div>
+
+    <!-- Hero -->
+    <section class="hero bg position-relative overflow-hidden" id="hero">
+      <div class="container h-100">
+        <div class="row align-items-center h-100">
+          <div class="col-lg-12 h-100 align-items-center d-flex">
+            <div class="hero__content" data-aos="fade-down">
+              <h1>Welcome!</h1>
+              <p>
+                Breaking barriers, bridging worlds. Our AI-Powered news app is
+                born from a journey of resilience and determination. Say goodbye
+                to information overload and hello to a more informed, united,
+                and balanced life with AI.
+              </p>
+
+              <a
+                href="#download-app"
+                data-aos="zoom-in"
+                data-aos-duration="300"
+                type="button"
+                class="btn-solid text-white"
+                >Get Started</a
+              >
+            </div>
+          </div>
+
+          <div class="flex">
+            <img
+              src="/assets/images/hero-mockup.png"
+              alt=""
+              class="d-block position-absolute end-0 hero__img animate-translateY"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download App -->
+    <section class="download-app" id="download-app">
+      <div class="container">
+        <div class="dowload-app__wrapper d-flex flex-column">
+          <div class="download-app__header">
+            <!-- <h5 class="body-text-normal">Download Our App</h5> -->
+            <h2>Download our app now for free</h2>
+            <!-- <p class="body-text-lg">
+              Lorem, transparent pricing that grows with you. Try any plan free
+              for 30 days.
+            </p> -->
+          </div>
+
+          <div class="download-app__cardbox">
+            <div class="download-now d-grid">
+              <div
+                data-aos="fade-down"
+                class="download-now__wrapper d-flex flex-column"
+              >
+                <div class="download-now__container d-flex flex-column">
+                  <div class="d-flex device-app">
+                    <div class="flex-1">
+                      <h4 class="body-text-xl">IOS App Download</h4>
+                      <p className="body-text-normal">
+                        Scan the QR code or use the button below to download our
+                        IOS app.
+                      </p>
+                    </div>
+
+                    <div class="dowload-app_logo">
+                      <img
+                        src="/assets/icons/mac.png"
+                        alt=""
+                        class="mx-auto d-block"
+                      />
+                    </div>
+                  </div>
+
+                  <img
+                    src="/assets/images/ios-app.png"
+                    alt=""
+                    class="mx-auto d-block"
+                  />
+                </div>
+
+                <button type="button" class="btn-solid d-block w-100">
+                  Download Now
+                </button>
+              </div>
+
+              <div
+                data-aos="fade-up"
+                class="download-now__wrapper d-flex flex-column"
+              >
+                <div class="download-now__container d-flex flex-column">
+                  <div class="d-flex device-app">
+                    <div class="flex-1">
+                      <h4 class="body-text-xl">Android App Download</h4>
+                      <p className="body-text-normal">
+                        Scan the QR code or use the button below to download our
+                        Android app.
+                      </p>
+                    </div>
+
+                    <div class="dowload-app_logo">
+                      <img
+                        src="/assets/icons/anroid.png"
+                        alt=""
+                        class="mx-auto d-block"
+                      />
+                    </div>
+                  </div>
+
+                  <img
+                    src="/assets/images/ios-app.png"
+                    alt=""
+                    class="mx-auto d-block"
+                  />
+                </div>
+
+                <button type="button" class="btn-solid d-block w-100">
+                  Download Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg">
+      <div class="container">
+        <div class="row gap-md-24">
+          <div class="col-12 col-md-7 col-xl-5">
+            <div class="footer__brand d-flex flex-column">
+              <img src="/assets/logos/logo.svg" alt="" width="60" height="60" />
+              <p>
+                Get the news that matters, fast. Quick News Global's AI-powered summaries put you ahead of the curve, freeing up time for what truly counts. Global events, local stories, and everything in between - news that fits your coffee break. Download now to stay informed and united.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-5 col-xl-7">
+            <div class="row footer-list-wrapper">
+              <div class="col-6 col-xl-4 order-1 order-xl-1">
+                <div class="footer__list d-flex flex-column">
+                  <h4>Menu Links</h4>
+                  <ul class="d-flex flex-column">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/our-vision.html">Our Vision</a></li>
+                    <li><a href="/partnership.html">Partnership</a></li>
+                    <li><a href="/invest.html">Invest</a></li>
+                    <li><a href="/donate.html">Donate</a></li>
+                    <li><a href="/meet-our-founder.html">Our Team</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-xl-4 order-3 order-xl-2">
+                <div class="footer__list d-flex flex-column">
+                  <h4>Social Media</h4>
+                  <ul class="d-flex flex-wrap social-links">
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/twitter.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/facebook.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/instagram.svg" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/icons/linkdin.svg" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="col-6 col-xl-4 order-2 order-xl-3">
+                <div class="footer__list social-list d-flex flex-column">
+                  <h4>Get the App</h4>
+                  <ul class="d-flex flex-wrap social-links">
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/images/app-store.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="/assets/images/google-play.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row newsletter gap-md-24">
+          <div class="col-lg-6">
+            <div class="newsletter__content">
+              <h5>Join our newsletter</h5>
+              <p>Keep up to date with everything Reflect</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="newsletter__form ms-auto">
+              <form class="d-flex flex-wrap">
+                <input
+                  name="email"
+                  id="email"
+                  placeholder="Enter your email"
+                  class="flex-1"
+                />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div class="row copyright text-center text-md-left gap-md-12">
+          <div class="col-12 col-md-6">
+            <ul
+              class="d-flex flex-wrap justify-content-center justify-content-md-start"
+            >
+              <li><a href="/privacy-policy.html">Privacy Policy</a></li>
+              <li><a href="#">Terms of Conditions</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-6 text-center text-md-end">
+            <p>Powered by GDELT</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"
+      integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/assets/js/index.js"></script>
+  </body>
+</html>
