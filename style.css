@@ -373,7 +373,7 @@ header.header-active .navbar .navbar-nav .show > .nav-link {
 
 /* Custom Header */
 .custom-header {
-  background-image: url("/assets/backgrounds/meet-us-header.jpg");
+  background-image: url("/assets/backgrounds/meet-us-header.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -401,6 +401,7 @@ header.header-active .navbar .navbar-nav .show > .nav-link {
   line-height: 27px;
   font-weight: 400;
   margin-bottom: 19px;
+  text-align: justify;
 }
 .meet-us-wrapper {
   padding-left: 15%;
@@ -436,7 +437,7 @@ header.header-active .navbar .navbar-nav .show > .nav-link {
 .clients-slider {
   padding-bottom: 90px;
   margin-bottom: 33px;
-  height: 430px;
+  /* height: 430px; */
 }
 .clients-slider .swiper-pagination-bullet {
   border: 2px solid #3f1cc0 !important;
@@ -979,6 +980,7 @@ input[type="radio"] {
   line-height: 29px;
   font-weight: 400;
   margin-bottom: 11px;
+  text-align: justify;
 }
 .donate-now__content {
   padding: 29px 29px;
@@ -994,7 +996,7 @@ input[type="radio"] {
   background-color: #fff;
 }
 .suport-donation {
-  background-image: url("/assets/backgrounds/support-with-donation.jpg");
+  background-image: url("/assets/backgrounds/support-with-donation.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1013,6 +1015,7 @@ input[type="radio"] {
   width: 100%;
   max-width: 977px;
   margin: 0 auto;
+  text-align: justify;
 }
 .get-in-touch {
   padding: 60px 0 84px;
@@ -1170,6 +1173,9 @@ input[type="radio"] {
 .clients-slider .swiper-slide:hover .swiper-slide-wrapper:before {
   background-color: rgba(0, 0, 0, 0.5);
 }
+.meet-founder__wrapper {
+  row-gap: 30px;
+}
 .animate-translateY {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
@@ -1229,8 +1235,11 @@ input[type="radio"] {
   .meet-us-wrapper {
     padding: 0;
   }
+  .meet-us-wrapper {
+    margin-bottom: 70px;
+  }
   .meet-founder__wrapper {
-    row-gap: 70px;
+    row-gap: 0px;
   }
   .meet-founder__content {
     padding-left: 0;
