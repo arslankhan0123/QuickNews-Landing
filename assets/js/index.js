@@ -11,7 +11,7 @@ $(document).ready(function () {
       clickable: true,
     },
     autoplay: {
-      delay: 4000, 
+      delay: 4000,
       disableOnInteraction: false, // keep autoplay running after user interaction
     },
     breakpoints: {
@@ -44,5 +44,28 @@ $(document).ready(function () {
     $(".selected-value").text(value);
     $("#optionsContainer").removeClass("show");
     $(".selectbox").removeClass("active");
+  });
+
+  $("#goToSection").on("click", function (e) {
+    e.preventDefault(); // prevent default anchor behavior
+    $("html, body").animate(
+      {
+        scrollTop: $("#download-app").offset().top - 100,
+      },
+      100
+    ); 
+  });
+
+   $('#custom-amount').on('input', function () {
+    // Remove all non-digit characters
+    this.value = this.value.replace(/[^0-9]/g, '');
+    
+    const customValue = $(this).val().trim();
+
+    if (customValue !== '') {
+      $('#amount').removeClass('highlighted-input');
+    } else {
+      $('#amount').addClass('highlighted-input');
+    }
   });
 });

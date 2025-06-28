@@ -231,9 +231,9 @@ header.header-active .navbar .navbar-nav .show > .nav-link {
 /* Hero Section */
 .hero {
   padding: 36px 0;
+  height: 600px;
 }
-.hero--vision,
-.hero {
+.hero--vision {
   height: 530px;
 }
 .hero__content {
@@ -438,6 +438,9 @@ header.header-active .navbar .navbar-nav .show > .nav-link {
   padding-bottom: 90px;
   margin-bottom: 33px;
   /* height: 430px; */
+}
+.clients-slider .swiper-wrapper {
+  height: 450px;
 }
 .clients-slider .swiper-pagination-bullet {
   border: 2px solid #3f1cc0 !important;
@@ -1144,7 +1147,7 @@ input[type="radio"] {
   transform: unset;
 } */
 .team-designation-content h6 {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
   margin-bottom: 8px;
 }
@@ -1174,7 +1177,13 @@ input[type="radio"] {
   background-color: rgba(0, 0, 0, 0.5);
 }
 .meet-founder__wrapper {
-  row-gap: 30px;
+  row-gap: 60px;
+}
+.highlighted-input {
+  background-color: var(--purple);
+  color: #fff !important;
+  font-weight: 700;
+  text-align: center;
 }
 .animate-translateY {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
