@@ -61,7 +61,7 @@ p {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 35px;
   line-height: 52px;
   letter-spacing: -1px;
   font-weight: 700;
@@ -257,7 +257,7 @@ header.header-active .navbar .navbar-nav .show > .nav-link {
 .hero__img {
   bottom: 35px;
   width: 100%;
-  max-width: 458px;
+  max-width: 450px !important;
   margin-left: auto;
 }
 .hero__img--center {
